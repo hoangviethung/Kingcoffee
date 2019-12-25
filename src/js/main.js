@@ -89,12 +89,26 @@ function SVG() {
 	});
 }
 
+// SLIDER
+function homeSlider() {
+	var homeSlider = new Swiper('.home-slider .swiper-container', {
+		speed: 400,
+		effect: 'fade',
+		pagination: {
+			el: '.home-slider .swiper-pagination',
+			type: 'bullets',
+		},
+	});
+}
+
 // CHẠY KHI DOCUMENT SẴN SÀNG
 document.addEventListener('DOMContentLoaded', () => {
 	// LOADING
 	loading();
 	// SVG CONTROL
 	SVG();
+	// SLIDER
+	homeSlider();
 });
 
 // CHẠY KHI WINDOWN SCROLL
