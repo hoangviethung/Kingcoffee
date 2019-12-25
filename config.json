@@ -1,0 +1,21 @@
+{
+	"build": true,
+	"filePath": [],
+	"vendor": {
+
+		"font": [
+			"src/fonts/**"
+		],
+
+		"css": [
+			"bower_components/fancybox/dist/jquery.fancybox.css",
+			"bower_components/swiper/package/css/swiper.css"
+		],
+
+		"js": [
+			"bower_components/jquery/dist/jquery.js",
+			"bower_components/swiper/package/js/swiper.js",
+			"bower_components/fancybox/dist/jquery.fancybox.min.js"
+		]
+	}
+}
