@@ -15,7 +15,8 @@
   ],
   "dependencies": {
     "jquery": "3.4.1",
-	"fancybox": "^3.5.7",
-    "swiper": "^5.2.1"
+    "fancybox": "^3.5.7",
+    "swiper": "^5.2.1",
+    "lazysizes": "^5.2.0"
   }
 }

@@ -1,0 +1,43 @@
+.index-5
+	.container
+		.data-number
+			.item
+				.icon
+					img.svg(src="./assets/images/icons/strores.svg", alt="", srcset="")
+				.text
+					h4 136
+					p STORES IN
+			.item
+				.icon
+					img.svg(src="./assets/images/icons/provinces.svg", alt="", srcset="")
+				.text
+					h4 179
+					p PROVINCES, CITIES
+			.item
+				.icon
+					img.svg(src="./assets/images/icons/countries.svg", alt="", srcset="")
+				.text
+					h4 60
+					p COUNTRIES
+		.select-filter
+			form(action="#" method="method")
+				.form-group
+					.input-form.select
+						select(name="#")
+							option(value="#") Tp.Hồ Chí Minh
+							option(value="#") Hà Nội
+							option(value="#") Hải Phòng
+							option(value="#") Bình Dương
+							option(value="#") Huế
+		.slider-Branch
+			.swiper-container
+				.swiper-wrapper
+					-for(i=1;i<9;i++)
+						.swiper-slide
+							figure
+								img(src="./assets/images/index/item-branch/"+i+".jpg", alt="", srcset="")
+								figcaption
+									p 251 CỘNG HÒA
+			.swiper-button-prev
+			.swiper-button-next
+include ../_global/_gmap.pug

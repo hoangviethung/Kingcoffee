@@ -2,7 +2,8 @@ header
 	.container
 		.row.no-gutters
 			.logo
-				img(src="./assets/images/logo.png", alt="")
+				a(href="#")
+					img.lazyload(data-src="./assets/images/logo.png", alt="")
 			.list-nav
 				.nav-item
 					a(href="#") chuyện thương hiệu
@@ -22,9 +23,10 @@ header
 					a(href="#") thành viên
 				.nav-item.language
 					.language-item.active
-						img(src="./assets/images/icons/vn.svg", alt="", srcset="")
+						a(href="#")
+							img.lazyload(data-src="./assets/images/icons/vn.svg", alt="", srcset="")
 					.language-item
 						img(src="./assets/images/icons/en.svg", alt="", srcset="")
 				.nav-item.search
 					.icon
-						img.svg(src="./assets/images/icons/search.svg", alt="", srcset="")
+						img.lazyload(data-src="./assets/images/icons/search.svg", alt="", srcset="")

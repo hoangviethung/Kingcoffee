@@ -1,0 +1,17 @@
+<svg id="Group_51" data-name="Group 51" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.251" height="41.398" viewBox="0 0 42.251 41.398">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.596" y1="1.622" x2="2.427" y2="-1.385" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff36e"/>
+      <stop offset="0.371" stop-color="#e4b354"/>
+      <stop offset="1" stop-color="#b39148"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_400" data-name="Path 400" d="M21.625,73.652H38.992V63.333H21.625Zm.975-9.344H38.017v8.369H22.6Z" transform="translate(-14.495 -35.545)" fill="url(#linear-gradient)"/>
+  <path id="Path_401" data-name="Path 401" d="M49.251,46.286v-.975H45.96v-8A1.5,1.5,0,0,0,46.976,35.9V31.166L41.308,24.6H33.783a5.4,5.4,0,0,0,1.473-1.557c.06.006.12.013.181.013h2.032a1.952,1.952,0,0,0,1.95-1.95V19a1.952,1.952,0,0,0-1.95-1.95h-1.4v-.906H20.757v4.075A5.357,5.357,0,0,0,23.046,24.6H15.553L9.844,31.165V35.9a1.5,1.5,0,0,0,1.015,1.415v8H7v.975h3.86v5.5H7v.975H49.251v-.975H45.96v-5.5Zm-38.4-14.8H45.967l.034.039v1.424H10.819V31.53Zm34.271-.975H11.7l1.849-2.125H43.289ZM37.469,18.022a.976.976,0,0,1,.975.975V21.11a.976.976,0,0,1-.975.975H35.73a5.321,5.321,0,0,0,.343-1.869V18.022ZM35.1,17.116v1.211H21.732V17.116Zm-13.366,3.1V19.3H35.1v.914A4.393,4.393,0,0,1,30.71,24.6H26.12A4.393,4.393,0,0,1,21.732,20.216ZM16,25.579H40.861l1.586,1.836H14.4Zm-5.179,8.349H46V35.9a.528.528,0,1,1-1.056,0V34.76H42.588V35.9a.528.528,0,1,1-1.056,0V34.76H39.176V35.9a.528.528,0,1,1-1.056,0V34.76H35.763V35.9a.528.528,0,1,1-1.056,0V34.76H32.35V35.9a.528.528,0,1,1-1.056,0V34.76H28.938V35.9a.528.528,0,1,1-1.056,0V34.76H25.525V35.9a.528.528,0,1,1-1.056,0V34.76H22.113V35.9a.528.528,0,1,1-1.056,0V34.76H18.7V35.9a.528.528,0,1,1-1.056,0V34.76H15.288V35.9a.528.528,0,1,1-1.056,0V34.76H11.875V35.9a.528.528,0,1,1-1.056,0v-1.97ZM42.588,51.782H38.566V40.123h4.022Zm-5,0H33.569V40.123h4.022Zm5.972,0V39.147H32.594V51.782H11.835V37.312A1.5,1.5,0,0,0,12.85,35.9v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.007,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,1,0,3.006,0v-.162h.406V35.9a1.5,1.5,0,0,0,1.015,1.415v14.47Z" transform="translate(-7 -11.36)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_47" data-name="Rectangle 47" width="0.975" height="5.424" transform="translate(15.326 30.246)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_48" data-name="Rectangle 48" width="0.975" height="2.913" transform="translate(13.233 31.526)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_49" data-name="Rectangle 49" width="0.975" height="2.913" transform="translate(17.418 31.526)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_50" data-name="Rectangle 50" width="0.975" height="3.819" transform="translate(20.922 0)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_51" data-name="Rectangle 51" width="0.975" height="2.438" transform="translate(22.872 1.382)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_52" data-name="Rectangle 52" width="0.975" height="2.438" transform="translate(18.972 1.382)" fill="url(#linear-gradient)"/>
+</svg>

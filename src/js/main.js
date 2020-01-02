@@ -1,7 +1,7 @@
 // import here !!!
 import loading from './lib/loading';
 import mapping from "./lib/mapping";
-
+import GGMapInit from './lib/map';
 // Script Cho Tab
 class Tab {
 	selector;
@@ -91,12 +91,26 @@ function SVG() {
 
 // SLIDER
 function homeSlider() {
-	var homeSlider = new Swiper('.home-slider .swiper-container', {
+	var homeSlider = new Swiper('.slider-Home .swiper-container', {
 		speed: 400,
 		effect: 'fade',
+		simulateTouch: false,
 		pagination: {
-			el: '.home-slider .swiper-pagination',
+			el: '.slider-Home .swiper-pagination',
 			type: 'bullets',
+		},
+	});
+}
+
+function branchSlider() {
+	var branchSlider = new Swiper('.slider-Branch .swiper-container', {
+		speed: 400,
+		slidesPerView: 5,
+		spaceBetween: 40,
+		simulateTouch: false,
+		navigation: {
+			nextEl: '.slider-Branch .swiper-button-next',
+			prevEl: '.slider-Branch .swiper-button-prev',
 		},
 	});
 }
@@ -107,8 +121,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	loading();
 	// SVG CONTROL
 	SVG();
+	// GOOGLE MAP
+	GGMapInit();
 	// SLIDER
 	homeSlider();
+	branchSlider();
 });
 
 // CHẠY KHI WINDOWN SCROLL
