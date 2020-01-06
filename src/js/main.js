@@ -109,10 +109,34 @@ function branchSlider() {
 		spaceBetween: 40,
 		simulateTouch: false,
 		navigation: {
-			nextEl: '.slider-Branch .swiper-button-next',
-			prevEl: '.slider-Branch .swiper-button-prev',
+			nextEl: '.slider-Branch .swiper-button-prev',
+			prevEl: '.slider-Branch .swiper-button-next',
 		},
 	});
+}
+
+function sliderCustomer() {
+	var sliderCustomer = new Swiper('.slider-Customer .swiper-container', {
+		speed: 400,
+		effect: 'fade',
+		autoplay: {
+			delay: 3000,
+		},
+		simulateTouch: false,
+		loop: true,
+		navigation: {
+			nextEl: '.slider-Customer .swiper-button-prev',
+			prevEl: '.slider-Customer .swiper-button-next'
+		}
+	})
+}
+
+function activeMenu() {
+	if ($(window).scrollTop() > 0) {
+		$("header").addClass("active")
+	} else {
+		$("header").removeClass("active")
+	}
 }
 
 // CHẠY KHI DOCUMENT SẴN SÀNG
@@ -126,7 +150,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	// SLIDER
 	homeSlider();
 	branchSlider();
+	sliderCustomer();
 });
 
 // CHẠY KHI WINDOWN SCROLL
-window.addEventListener('scroll', () => {})
+window.addEventListener('scroll', () => {
+	activeMenu();
+})

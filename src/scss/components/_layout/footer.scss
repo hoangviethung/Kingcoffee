@@ -1,0 +1,141 @@
+footer {
+	padding   : 50px 0;
+	background: #862822;
+
+	.title-footer {
+		font-size    : 21px;
+		color        : #ffffff;
+		font-weight  : 700;
+		margin-bottom: 10px;
+	}
+
+	.contact {
+		ul {
+			li {
+				color        : #ffffff;
+				position     : relative;
+				padding-left : 50px;
+				margin-bottom: 15px;
+
+				&:after {
+					content          : '';
+					position         : absolute;
+					left             : 0;
+					top              : 50%;
+					transform        : translateY(-50%);
+					background-size  : cover;
+					background-repeat: no-repeat;
+				}
+
+				&.phone {
+					&:after {
+						width           : 20px;
+						height          : 25px;
+						background-image: url(../assets/images/icons/phone.svg);
+					}
+				}
+
+				&.mail {
+					&:after {
+						width           : 25px;
+						height          : 19px;
+						background-image: url(../assets/images/icons/mail.svg);
+					}
+				}
+
+				&.address {
+					&:after {
+						width           : 25px;
+						height          : 25px;
+						background-image: url(../assets/images/icons/address.svg);
+					}
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.footer-link {
+		align-self     : flex-end;
+		justify-content: center;
+
+		ul {
+			li {
+				color        : #FFFFFF;
+				margin-bottom: 15px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.social-media {
+		align-self: flex-end;
+
+		.title-footer {
+			text-align: center;
+		}
+
+		ul {
+			display        : flex;
+			justify-content: center;
+
+			li {
+				color       : #FFFFFF;
+				margin-right: 20px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.footer-facebook,
+	.footer-instagram {
+		align-self: flex-end;
+	}
+
+	.footer-instagram {
+		figure {
+			height: 130px;
+		}
+	}
+}
+
+.copy-right {
+	background: #000000;
+	padding   : 20px 0;
+
+	.text-left {
+		align-self: flex-end;
+
+		p {
+			color    : #7E7E7E;
+			font-size: 14px;
+		}
+	}
+
+	.text-right {
+		margin-left: auto;
+		align-self : flex-end;
+
+		ul {
+			display: flex;
+
+			li {
+				color       : #717171;
+				margin-right: 40px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,9 +1,22 @@
 header {
-	position: fixed;
-	width   : 100%;
-	top     : 0;
-	left    : 0;
-	z-index : 500;
+	position  : fixed;
+	width     : 100%;
+	top       : 0;
+	left      : 0;
+	z-index   : 500;
+	background: transparent;
+	transition: .3s all ease-in-out;
+	z-index   : 500;
+
+	.logo {
+		height    : 120px;
+		transition: .3s all ease-in-out;
+
+		img {
+			height: 100%;
+			width : auto;
+		}
+	}
 
 	.list-nav {
 		display    : flex;
@@ -16,6 +29,7 @@ header {
 			>a {
 				text-transform: uppercase;
 				color         : #ffffff;
+				transition    : .3s all ease-in-out;
 			}
 
 			&:last-child {
@@ -39,6 +53,25 @@ header {
 					&.active {
 						opacity: 1;
 					}
+				}
+			}
+		}
+	}
+
+	&.active {
+		background: #CC3029;
+		box-shadow: 0 3px 6px rgba($color: #000000, $alpha: .16);
+
+		.logo {
+			height    : 80px;
+			transition: .3s all ease-in-out;
+		}
+
+		.list-nav {
+			.nav-item {
+				>a {
+					font-size : 14px;
+					transition: .3s all ease-in-out;
 				}
 			}
 		}
