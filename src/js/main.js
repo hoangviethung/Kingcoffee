@@ -1,6 +1,5 @@
 // import here !!!
 import loading from './lib/loading';
-import mapping from "./lib/mapping";
 import GGMapInit from './lib/map';
 // Script Cho Tab
 class Tab {
@@ -98,7 +97,12 @@ function homeSlider() {
 		pagination: {
 			el: '.slider-Home .swiper-pagination',
 			type: 'bullets',
+			clickable: true,
 		},
+		// Disable preloading of all images
+		preloadImages: false,
+		// Enable lazy loading
+		lazy: true
 	});
 }
 
@@ -108,6 +112,20 @@ function branchSlider() {
 		slidesPerView: 5,
 		spaceBetween: 40,
 		simulateTouch: false,
+		breakpoints: {
+			768: {
+				slidesPerView: 4,
+				spaceBetween: 20,
+			},
+			375: {
+				slidesPerView: 2,
+				spaceBetween: 10,
+			}
+		},
+		// Disable preloading of all images
+		preloadImages: false,
+		// Enable lazy loading
+		lazy: true,
 		navigation: {
 			nextEl: '.slider-Branch .swiper-button-prev',
 			prevEl: '.slider-Branch .swiper-button-next',
@@ -130,6 +148,24 @@ function sliderCustomer() {
 		}
 	})
 }
+// SHOW MENU IN MOBILE
+function showMenuMobile() {
+	$('.button-mobile').click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass('active');
+		$(this).siblings('.list-nav').toggleClass('active');
+		$('body').toggleClass('disabled');
+		$('.overlay').toggleClass('active');
+	});
+
+	$('.overlay').click(function(e) {
+		e.preventDefault();
+		$(this).removeClass('active')
+		$('.list-nav').removeClass('active');
+		$('body').removeClass('disabled');
+		$('.button-mobile').toggleClass('active');
+	});
+}
 
 function activeMenu() {
 	if ($(window).scrollTop() > 0) {
@@ -151,6 +187,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	homeSlider();
 	branchSlider();
 	sliderCustomer();
+	// HEADER
+	showMenuMobile();
 });
 
 // CHẠY KHI WINDOWN SCROLL

@@ -35,9 +35,10 @@
 					-for(i=1;i<9;i++)
 						.swiper-slide
 							figure
-								img(src="./assets/images/index/item-branch/"+i+".jpg", alt="", srcset="")
+								img.swiper-lazy(src="./assets/images/index/item-branch/"+i+".jpg", alt="", srcset="")
 								figcaption
 									p 251 CỘNG HÒA
+								.swiper-lazy-preloader.swiper-lazy-preloader-white
 			.swiper-button-prev
 			.swiper-button-next
 include ../_global/_gmap.pug

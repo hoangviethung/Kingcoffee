@@ -1,28 +1,27 @@
 .index-6
-	.block-hot-product
-		.item-block
-			figure
-				img.lazyload(data-src="./assets/images/index/hot-product/banner_1.jpg", alt="")
-		.item-block
-			.content
+	.item-block
+		.row.no-gutters
+			.box-big-img.col-lg-6
+				img.blur-up.lazyload(data-src="./assets/images/index/hot-product/banner_1.jpg", alt="")
+			.content.col-lg-6
 				.title-hot-product SIGNATURE DRINKS
 				.list-item
 					-for(i=1;i<5;i++)
 						.item
 							figure
-								img.lazyload(data-src="./assets/images/index/hot-product/item-hot-"+i+".png", alt="")
+								img.blur-up.lazyload(data-src="./assets/images/index/hot-product/item-hot-"+i+".png", alt="")
 								figcaption
 									p MATCHA COFFEE
-		.item-block
-			.content
+	.item-block
+		.row.no-gutters
+			.content.col-lg-6
 				.title-hot-product Delicious Cakes
 				.list-item
 					-for(i=5;i<9;i++)
 						.item
 							figure
-								img.lazyload(data-src="./assets/images/index/hot-product/item-hot-"+i+".png", alt="")
+								img.blur-up.lazyload(data-src="./assets/images/index/hot-product/item-hot-"+i+".png", alt="")
 								figcaption
 									p KING COFFEE0171
-		.item-block
-			figure
-				img.lazyload(data-src="./assets/images/index/hot-product/banner_2.jpg", alt="")
+			.box-big-img.col-lg-6
+				img.blur-up.lazyload(data-src="./assets/images/index/hot-product/banner_2.jpg", alt="")

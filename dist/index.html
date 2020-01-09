@@ -11,7 +11,7 @@
 	<body>
 		<div id="fb-root"></div>
 		<div id="loading">
-			<div class="logo-loader"><img src="./assets/images/icons/loading.svg" alt=""></div>
+			<div class="logo-loader"><img src="./assets/images/logo.png" alt=""></div>
 			<div class="progstat-wrapper">Loading:<span id="progstat">0</span>%</div>
 			<div id="progress"></div>
 		</div>
@@ -19,6 +19,7 @@
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="logo"><a href="#"><img class="lazyload" data-src="./assets/images/logo.png" alt=""></a></div>
+					<div class="button-mobile"><span class="line"></span></div>
 					<div class="list-nav">
 						<div class="nav-item"><a href="#">chuyện thương hiệu</a></div>
 						<div class="nav-item"><a href="#">menu</a></div>
@@ -45,15 +46,25 @@
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide"><a href="#">
-									<figure><img class="ofc" src="./assets/images/index/index-1.jpg" alt="" srcset=""></figure></a></div>
+									<figure><img class="ofc swiper-lazy" src="./assets/images/index/index-1.jpg" alt="" srcset="">
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+									</figure></a></div>
 							<div class="swiper-slide"><a href="#">
-									<figure><img class="ofc" src="./assets/images/index/index-1.jpg" alt="" srcset=""></figure></a></div>
+									<figure><img class="ofc swiper-lazy" src="./assets/images/index/index-1.jpg" alt="" srcset="">
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+									</figure></a></div>
 							<div class="swiper-slide"><a href="#">
-									<figure><img class="ofc" src="./assets/images/index/index-1.jpg" alt="" srcset=""></figure></a></div>
+									<figure><img class="ofc swiper-lazy" src="./assets/images/index/index-1.jpg" alt="" srcset="">
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+									</figure></a></div>
 							<div class="swiper-slide"><a href="#">
-									<figure><img class="ofc" src="./assets/images/index/index-1.jpg" alt="" srcset=""></figure></a></div>
+									<figure><img class="ofc swiper-lazy" src="./assets/images/index/index-1.jpg" alt="" srcset="">
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+									</figure></a></div>
 							<div class="swiper-slide"><a href="#">
-									<figure><img class="ofc" src="./assets/images/index/index-1.jpg" alt="" srcset=""></figure></a></div>
+									<figure><img class="ofc swiper-lazy" src="./assets/images/index/index-1.jpg" alt="" srcset="">
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+									</figure></a></div>
 						</div>
 					</div>
 					<div class="swiper-pagination"></div>
@@ -75,10 +86,10 @@
 			<div class="index-3">
 				<div class="container _block-index-3">
 					<div class="row">
-						<div class="content left col-lg-7">
-							<figure><img src="./assets/images/index/item-index-3.png" alt="" srcset=""></figure>
+						<div class="content left">
+							<figure><img class="blur-up lazyload" data-src="./assets/images/index/item-index-3.png" alt="" srcset=""></figure>
 						</div>
-						<div class="content right col-lg-5">
+						<div class="content right">
 							<div class="box-content">
 								<div class="title">
 									<h2>câu chuyện thương hiệu</h2>
@@ -93,30 +104,30 @@
 			</div>
 			<div class="index-4">
 				<div class="row no-gutters">
-					<div class="col-lg-3">
+					<div class="col-6 col-lg-3">
 						<figure><a href="#">
-								<div class="box-img"><img class="ofc lazyload" data-src="./assets/images/index/item-index-4/1.png" alt="" srcset=""></div>
+								<div class="box-img"><img class="ofc blur-up lazyload" data-src="./assets/images/index/item-index-4/1.png" alt="" srcset=""></div>
 								<figcaption>
 									<h3>luxury</h3>
 								</figcaption></a></figure>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-6 col-lg-3">
 						<figure><a href="#">
-								<div class="box-img"><img class="ofc lazyload" data-src="./assets/images/index/item-index-4/2.png" alt="" srcset=""></div>
+								<div class="box-img"><img class="ofc blur-up lazyload" data-src="./assets/images/index/item-index-4/2.png" alt="" srcset=""></div>
 								<figcaption>
 									<h3>premium</h3>
 								</figcaption></a></figure>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-6 col-lg-3">
 						<figure><a href="#">
-								<div class="box-img"><img class="ofc lazyload" data-src="./assets/images/index/item-index-4/3.png" alt="" srcset=""></div>
+								<div class="box-img"><img class="ofc blur-up lazyload" data-src="./assets/images/index/item-index-4/3.png" alt="" srcset=""></div>
 								<figcaption>
 									<h3>express</h3>
 								</figcaption></a></figure>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-6 col-lg-3">
 						<figure><a href="#">
-								<div class="box-img"><img class="ofc lazyload" data-src="./assets/images/index/item-index-4/4.png" alt="" srcset=""></div>
+								<div class="box-img"><img class="ofc blur-up lazyload" data-src="./assets/images/index/item-index-4/4.png" alt="" srcset=""></div>
 								<figcaption>
 									<h3>kiosk</h3>
 								</figcaption></a></figure>
@@ -167,59 +178,67 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/1.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/1.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/2.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/2.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/3.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/3.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/4.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/4.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/5.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/5.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/6.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/6.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/7.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/7.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 								<div class="swiper-slide">
-									<figure><img src="./assets/images/index/item-branch/8.jpg" alt="" srcset="">
+									<figure><img class="swiper-lazy" src="./assets/images/index/item-branch/8.jpg" alt="" srcset="">
 										<figcaption>
 											<p>251 CỘNG HÒA</p>
 										</figcaption>
+										<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 									</figure>
 								</div>
 							</div>
@@ -275,37 +294,35 @@
 				]
 			</script>
 			<div class="index-6">
-				<div class="block-hot-product">
-					<div class="item-block">
-						<figure><img class="lazyload" data-src="./assets/images/index/hot-product/banner_1.jpg" alt=""></figure>
-					</div>
-					<div class="item-block">
-						<div class="content">
+				<div class="item-block">
+					<div class="row no-gutters">
+						<div class="box-big-img col-lg-6"><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/banner_1.jpg" alt=""></div>
+						<div class="content col-lg-6">
 							<div class="title-hot-product">SIGNATURE DRINKS</div>
 							<div class="list-item">
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-1.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-1.png" alt="">
 										<figcaption>
 											<p>MATCHA COFFEE</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-2.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-2.png" alt="">
 										<figcaption>
 											<p>MATCHA COFFEE</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-3.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-3.png" alt="">
 										<figcaption>
 											<p>MATCHA COFFEE</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-4.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-4.png" alt="">
 										<figcaption>
 											<p>MATCHA COFFEE</p>
 										</figcaption>
@@ -314,33 +331,35 @@
 							</div>
 						</div>
 					</div>
-					<div class="item-block">
-						<div class="content">
+				</div>
+				<div class="item-block">
+					<div class="row no-gutters">
+						<div class="content col-lg-6">
 							<div class="title-hot-product">Delicious Cakes</div>
 							<div class="list-item">
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-5.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-5.png" alt="">
 										<figcaption>
 											<p>KING COFFEE0171</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-6.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-6.png" alt="">
 										<figcaption>
 											<p>KING COFFEE0171</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-7.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-7.png" alt="">
 										<figcaption>
 											<p>KING COFFEE0171</p>
 										</figcaption>
 									</figure>
 								</div>
 								<div class="item">
-									<figure><img class="lazyload" data-src="./assets/images/index/hot-product/item-hot-8.png" alt="">
+									<figure><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/item-hot-8.png" alt="">
 										<figcaption>
 											<p>KING COFFEE0171</p>
 										</figcaption>
@@ -348,9 +367,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="item-block">
-						<figure><img class="lazyload" data-src="./assets/images/index/hot-product/banner_2.jpg" alt=""></figure>
+						<div class="box-big-img col-lg-6"><img class="blur-up lazyload" data-src="./assets/images/index/hot-product/banner_2.jpg" alt=""></div>
 					</div>
 				</div>
 			</div>
@@ -402,8 +419,9 @@
 					<div class="block-list-news">
 						<div class="title-index-9">BLOG SỰ KIỆN</div>
 						<div class="list-news">
-							<div class="item-news"><a href="#">
-									<figure><img class="lazyload ofc" data-src="./assets/images/index/news/1.jpg" alt="" srcset="">
+							<div class="item-news"><a href="tintuc-ct.html">
+									<figure>
+										<div class="box-img"><img class="blur-up lazyload ofc" data-src="./assets/images/index/news/1.jpg" alt="" srcset=""></div>
 										<figcaption>
 											<div class="box-content">
 												<h3>Chào đón cửa hàng King Coffee đầu tiên tại Nha Trang vào ngày 29/11</h3>
@@ -411,8 +429,9 @@
 											</div>
 										</figcaption>
 									</figure></a></div>
-							<div class="item-news"><a href="#">
-									<figure><img class="lazyload ofc" data-src="./assets/images/index/news/2.jpg" alt="" srcset="">
+							<div class="item-news"><a href="tintuc-ct.html">
+									<figure>
+										<div class="box-img"><img class="blur-up lazyload ofc" data-src="./assets/images/index/news/2.jpg" alt="" srcset=""></div>
 										<figcaption>
 											<div class="box-content">
 												<h3>Chào đón cửa hàng King Coffee đầu tiên tại Nha Trang vào ngày 29/11</h3>
@@ -420,8 +439,9 @@
 											</div>
 										</figcaption>
 									</figure></a></div>
-							<div class="item-news"><a href="#">
-									<figure><img class="lazyload ofc" data-src="./assets/images/index/news/3.jpg" alt="" srcset="">
+							<div class="item-news"><a href="tintuc-ct.html">
+									<figure>
+										<div class="box-img"><img class="blur-up lazyload ofc" data-src="./assets/images/index/news/3.jpg" alt="" srcset=""></div>
 										<figcaption>
 											<div class="box-content">
 												<h3>Chào đón cửa hàng King Coffee đầu tiên tại Nha Trang vào ngày 29/11</h3>
@@ -429,8 +449,9 @@
 											</div>
 										</figcaption>
 									</figure></a></div>
-							<div class="item-news"><a href="#">
-									<figure><img class="lazyload ofc" data-src="./assets/images/index/news/4.jpg" alt="" srcset="">
+							<div class="item-news"><a href="tintuc-ct.html">
+									<figure>
+										<div class="box-img"><img class="blur-up lazyload ofc" data-src="./assets/images/index/news/4.jpg" alt="" srcset=""></div>
 										<figcaption>
 											<div class="box-content">
 												<h3>Chào đón cửa hàng King Coffee đầu tiên tại Nha Trang vào ngày 29/11</h3>
@@ -438,8 +459,9 @@
 											</div>
 										</figcaption>
 									</figure></a></div>
-							<div class="item-news"><a href="#">
-									<figure><img class="lazyload ofc" data-src="./assets/images/index/news/5.jpg" alt="" srcset="">
+							<div class="item-news"><a href="tintuc-ct.html">
+									<figure>
+										<div class="box-img"><img class="blur-up lazyload ofc" data-src="./assets/images/index/news/5.jpg" alt="" srcset=""></div>
 										<figcaption>
 											<div class="box-content">
 												<h3>Chào đón cửa hàng King Coffee đầu tiên tại Nha Trang vào ngày 29/11</h3>
@@ -456,7 +478,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 contact">
+					<div class="col-lg-4 col-md-6 contact">
 						<div class="title-footer">Liên Hệ</div>
 						<ul>
 							<li class="phone">+84 2693717868</li>
@@ -464,33 +486,31 @@
 							<li class="address">198 Nguyễn Thị Minh Khai, P.6, Q.3, TP.HCM</li>
 						</ul>
 					</div>
-					<div class="col-lg-2 footer-link">
+					<div class="col-lg-2 col-md-6 footer-link">
 						<ul>
 							<li><a href="#">Chuyện thương hiệu</a></li>
 							<li><a href="#">Blog sự kiện</a></li>
 							<li><a href="#">Hệ thống cửa hàng</a></li>
 						</ul>
 					</div>
-					<div class="col-lg-2 social-media">
+					<div class="col-lg-2 col-md-12 social-media">
 						<div class="title-footer">Chia sẻ liên kết</div>
 						<ul>
-							<li>
-								<figure><img class="svg" src="./assets/images/icons/facebook.svg" alt=""></figure>
+							<li id="facebook">
+								<div class="fb-share-button" data-href="http://web4gsolutions.com/"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fweb4gsolutions.com%2F&amp;src=sdkpreparse"></a></div>
 							</li>
-							<li>
-								<figure><img class="svg" src="./assets/images/icons/twitter.svg" alt=""></figure>
-							</li>
-							<li>
-								<figure><img class="svg" src="./assets/images/icons/instagram.svg" alt=""></figure>
-							</li>
+							<li><a href="https://twitter.com/intent/tweet?text=Cùng%20tham%20gia%20sự%20nhé%20http://web4gsolutions.com/">
+									<figure><img class="svg" src="./assets/images/icons/twitter.svg" alt=""></figure></a></li>
+							<li><a href="#">
+									<figure><img class="svg" src="./assets/images/icons/instagram.svg" alt=""></figure></a></li>
 						</ul>
 					</div>
-					<div class="col-lg-2 footer-facebook">
+					<div class="col-lg-2 col-md-6 footer-facebook">
 						<div class="fb-page" data-href="https://www.facebook.com/kingcoffeeglobal/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 							<blockquote class="fb-xfbml-parse-ignore" cite="https://www.facebook.com/kingcoffeeglobal/"><a href="https://www.facebook.com/kingcoffeeglobal/">King Coffee</a></blockquote>
 						</div>
 					</div>
-					<div class="col-lg-2 footer-instagram">
+					<div class="col-lg-2 col-md-6 footer-instagram">
 						<figure><img class="ofc" src="./assets/images/icons/instagram.png" alt="" srcset=""></figure>
 					</div>
 				</div>
@@ -512,6 +532,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="overlay"></div>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&amp;key=AIzaSyCHvmyTralDp2Y0m7zEiN185u1vtArcC5s&amp;libraries=places"></script>
 		<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v5.0&amp;appId=774359209430335&amp;autoLogAppEvents=1"></script>
 		<script type="text/javascript" src="./js/core.min.js"></script>

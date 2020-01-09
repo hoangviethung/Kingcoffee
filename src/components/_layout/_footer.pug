@@ -1,13 +1,13 @@
 footer
 	.container
 		.row
-			.col-lg-4.contact
+			.col-lg-4.col-md-6.contact
 				.title-footer Liên Hệ
 				ul
 					li.phone +84 2693717868
 					li.mail cs@tnikingcoffee.com
 					li.address 198 Nguyễn Thị Minh Khai, P.6, Q.3, TP.HCM
-			.col-lg-2.footer-link
+			.col-lg-2.col-md-6.footer-link
 				ul
 					li
 						a(href="#") Chuyện thương hiệu
@@ -15,25 +15,26 @@ footer
 						a(href="#") Blog sự kiện
 					li
 						a(href="#") Hệ thống cửa hàng
-			.col-lg-2.social-media
+			.col-lg-2.col-md-12.social-media
 				.title-footer Chia sẻ liên kết
 				ul
+					li#facebook
+						.fb-share-button(data-href='http://web4gsolutions.com/')
+							a.fb-xfbml-parse-ignore(target='_blank', href='https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fweb4gsolutions.com%2F&src=sdkpreparse')
 					li
-						figure
-							img.svg(src="./assets/images/icons/facebook.svg", alt="")
+						a(href="https://twitter.com/intent/tweet?text=Cùng%20tham%20gia%20sự%20nhé%20http://web4gsolutions.com/")
+							figure
+								img.svg(src="./assets/images/icons/twitter.svg", alt="")
 		
 					li
-						figure
-							img.svg(src="./assets/images/icons/twitter.svg", alt="")
-		
-					li
-						figure
-							img.svg(src="./assets/images/icons/instagram.svg", alt="")
-			.col-lg-2.footer-facebook
+						a(href="#")
+							figure
+								img.svg(src="./assets/images/icons/instagram.svg", alt="")
+			.col-lg-2.col-md-6.footer-facebook
 				.fb-page(data-href='https://www.facebook.com/kingcoffeeglobal/', data-tabs='', data-width='', data-height='', data-small-header='false', data-adapt-container-width='true', data-hide-cover='false', data-show-facepile='false')
 					blockquote.fb-xfbml-parse-ignore(cite='https://www.facebook.com/kingcoffeeglobal/')
 						a(href='https://www.facebook.com/kingcoffeeglobal/') King Coffee
-			.col-lg-2.footer-instagram
+			.col-lg-2.col-md-6.footer-instagram
 				figure
 					img.ofc(src="./assets/images/icons/instagram.png", alt="", srcset="")
 .copy-right

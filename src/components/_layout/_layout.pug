@@ -14,7 +14,7 @@ html(lang="en")
 		#fb-root
 		#loading
 			.logo-loader
-				img(src="./assets/images/icons/loading.svg", alt="")
+				img(src="./assets/images/logo.png", alt="")
 			.progstat-wrapper Loading:
 				span#progstat 0
 				| %
@@ -27,6 +27,7 @@ html(lang="en")
 		block footer
 			include _footer.pug
 		//- include scripts
+		.overlay
 		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyCHvmyTralDp2Y0m7zEiN185u1vtArcC5s&libraries=places")
 		script(async='', defer='', crossorigin='anonymous', src='https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=774359209430335&autoLogAppEvents=1')
 		script(type="text/javascript", src="./js/core.min.js")
